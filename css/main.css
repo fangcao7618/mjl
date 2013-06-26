@@ -11,7 +11,7 @@ body{ background-color:#000;height:5600px;}
 #six{ position:absolute; z-index:-1; left:50%; top:4000px; height: 800px; width: 1920px; margin-left:-960px; background-color:#FCC;}
 #seven{ position:absolute; z-index:-1; left:50%; top:4800px; height: 800px; width: 1920px; margin-left:-960px; background-color:#C9F;}
 
-#progressBG{background:#000 url(../images/loading_bg.jpg) no-repeat center 0px; height:900px; left:0px; top:0px;}
+#progressBG{background:#000 url(../images/loading_bg.jpg) no-repeat 50% 0px; height:900px; left:0px; top:0px;}
 
 .example{width:100%;font-size:80%; margin:0px; position:absolute; top:50%; margin-top:-5px; left:0px;}
 h3 {text-align:center}
