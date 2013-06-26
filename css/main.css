@@ -39,12 +39,12 @@ h3 {text-align:center}
 
 #poster{ position:absolute; z-index:1; left:50%; top:0px; background:url(../images/haibao.jpg) no-repeat scroll center top transparent;
     height: 800px;
-    width: 1920px; margin-left:-960px;}
+    width: 1920px; margin-left:-960px; display:none;}
 	
 .loading_ma{position:absolute; width: 196px; height: 185px; left:50%; margin-left:-98px; top: -209px; text-align:center;}
 #loading_pic_a{position:absolute; left:50%; margin-left:-140px; top: 50%; margin-top:-96px;}
 #loading_ma{position:absolute; color:#000; font-size:20px; width:60px; height:52px; line-height:52px; left:50%; margin-left:26px; top:50%; margin-top:-68px; display:block; text-align:center; font-weight:bold;}
-#baojian{position:absolute; z-index:5; left:50%; margin-left:-350px; top:310px;}
+#baojian{position:absolute; z-index:5; left:50%; margin-left:-350px; top:310px; display:none;}
 	
 #produce_ziti{ position:absolute; z-index:2; width:2000px; height:800px; left:50%; margin-left:-1000px; top:800px; background:url(../images/alaiyeshi.jpg);}
 #ziti_one{ position:absolute; z-index:4; left:50%; margin-left:-207px; top:265px; background:url(../images/02_03.png) no-repeat 0px 0px; width:415px; height:128px;}
