@@ -40,13 +40,13 @@ var jarallax,
 			{progress:'3%', opacity:'1',display:'block'}
 		]);*/
 									   
-		jarallax.addAnimation('#produce_ziti',[{progress:'1%', display:'block', opacity:'1',top:'500px'},
-												{progress:'2%', display:'block', opacity:'1',top:'560px'},
-														 {progress:'3%', display:'block', opacity:'1',top:'620px'},
-														 {progress:'4%', display:'block', opacity:'1',top:'680px'},
-														 {progress:'5%', display:'block', opacity:'1',top:'740px'},
-														 {progress:'6%', display:'block', opacity:'1',top:'800px'},
-														 {progress:'100%', display:'block', opacity:'1',top:'800px'}
+		jarallax.addAnimation('#produce_ziti',[{progress:'1%', display:'block', opacity:'1',top:'500px',width:'100%'},
+												{progress:'2%', display:'block', opacity:'1',top:'560px',width:'100%'},
+														 {progress:'3%', display:'block', opacity:'1',top:'620px',width:'100%'},
+														 {progress:'4%', display:'block', opacity:'1',top:'680px',width:'100%'},
+														 {progress:'5%', display:'block', opacity:'1',top:'740px',width:'100%'},
+														 {progress:'6%', display:'block', opacity:'1',top:'800px',width:'100%'},
+														 {progress:'100%', display:'block', opacity:'1',top:'800px',width:'100%'}
 														 ]);
 		jarallax.addAnimation('#ziti_one',[{progress:'3%', display:'none', opacity:'0', top:'0px'},
                                                          {progress:'4%', display:'block', opacity:'0.1', top:'25px'},
@@ -85,7 +85,7 @@ var jarallax,
 				{progress:'15%', display:'block', opacity:'1', top:'1400px'},
 				{progress:'16%', display:'block', opacity:'1', top:'1550px'},
 				{progress:'17%', display:'block', opacity:'1', top:'1560px'},
-				{progress:'18%', display:'block', opacity:'0.7', top:'1562px'},
+				{progress:'18%', display:'block', opacity:'0.7', top:'1600px'},
 				{progress:'100%', display:'block', opacity:'0.2', top:'1600px'}
 		]);
 
