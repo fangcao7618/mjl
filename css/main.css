@@ -51,7 +51,7 @@ h3 {text-align:center}
 #ziti_two{ position:absolute; z-index:5; left:50%; margin-left:-25px; top:430px; background:url(../images/02_07.png) no-repeat 0px 0px; width:50px; height:34px;}
 #ziti_three{ position:absolute; z-index:6; left:50%; margin-left:-207px; top:600px; background:url(../images/02_10.png) no-repeat 0px 0px; width:415px; height:106px;}
 #ziti_four{position:absolute; z-index:3; left:50%; margin-left:-1000px; top:0px; background:url(../images/baotu.png) no-repeat 0px 0px; width:2000px; height:800px;}
-#chengbao{ position:absolute; z-index:1; left:50%; margin-left:-525px; top:1600px; width:1050px; height:800px; background:url(../images/02_13.jpg) no-repeat 0px 0px; width:1050px; height:800px;}
+#chengbao{ position:absolute; z-index:1; left:50%; margin-left:-500px; top:1600px; width:1000px; height:800px; background:url(../images/02_13.jpg) no-repeat 0px 0px; height:800px;}
 #sparks{
 	position: absolute;
 	z-index: 7;
@@ -84,9 +84,9 @@ h3 {text-align:center}
 	z-index:2;
 	top:3270px;
 	height:484px ;/*337px 37 300   311*484*/
-	width:1050px ; /*950px 350 600*300*/ padding-top:50px;
+	width:1000px ; /*950px 350 600*300*/ padding-top:50px;
 	left:50%;
-	margin-left:-525px;
+	margin-left:-500px;
 }
 
 #featured-area img{ border:none}
