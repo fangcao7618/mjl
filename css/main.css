@@ -221,8 +221,8 @@ border:1px solid #aaaaaa;
 	z-index: 10;
 }
 .btn{ background:url(../images/btn_slideshow.png) no-repeat; width:60px; height:80px; border:none; cursor:pointer;}
-.prev{background-position:0px -80px; position:absolute; z-index:999; left:50%; margin-left:-525px; top:4360px;}
-.next{ background-position:0px 0px; position:absolute; z-index:999; right:50%; margin-right:-525px; top:4360px;}
+.prev{background-position:0px -80px; position:absolute; z-index:999; left:50%; margin-left:-500px; top:4360px;}
+.next{ background-position:0px 0px; position:absolute; z-index:999; right:50%; margin-right:-500px; top:4360px;}
 .prev:hover{background-position:0px -240px;}
 .next:hover{background-position:0px -160px;}
 .disabled{opacity: 0.3; filter:alpha(opacity=30);}
