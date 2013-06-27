@@ -34,11 +34,11 @@ var jarallax,
 		jarallax.setDefault('#ziti_four',{opacity:0,display:'none'});
 		//jarallax.setDefault('#sparks',{opacity:1,display:'block',top:'2168px'});
 
-		jarallax.addAnimation('#poster',[{progress:'0%', opacity:'1',display:'block'},
+		/*jarallax.addAnimation('#poster',[{progress:'0%', opacity:'1',display:'block'},
 			{progress:'1%', opacity:'1',display:'block'},
 			{progress:'2%', opacity:'1',display:'block'},
 			{progress:'3%', opacity:'1',display:'block'}
-		]);
+		]);*/
 									   
 		jarallax.addAnimation('#produce_ziti',[{progress:'1%', display:'block', opacity:'1',top:'500px'},
 												{progress:'2%', display:'block', opacity:'1',top:'560px'},
