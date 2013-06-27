@@ -48,45 +48,46 @@ var jarallax,
 														 {progress:'6%', display:'block', opacity:'1',top:'800px',width:'100%'},
 														 {progress:'100%', display:'block', opacity:'1',top:'800px',width:'100%'}
 														 ]);
-		jarallax.addAnimation('#ziti_one',[{progress:'3%', display:'none', opacity:'0', top:'0px'},
-                                                         {progress:'4%', display:'block', opacity:'0.1', top:'25px'},
-                                                         {progress:'5%', display:'block', opacity:'0.2', top:'50px'},
-														 {progress:'6%', display:'block', opacity:'1', top:'75px'},
-														 {progress:'7%', display:'block', opacity:'1', top:'100px'},
-														 {progress:'8%', display:'block', opacity:'1', top:'125px'},
-														 {progress:'9%', display:'block', opacity:'1', top:'150px'},
-														 {progress:'10%', display:'block', opacity:'1', top:'175px'},
-														 {progress:'11%', display:'block', opacity:'1', top:'200px'},
-														 {progress:'100%', display:'block', opacity:'1', top:'200px'}/*265*/
+		jarallax.addAnimation('#ziti_one',[{progress:'3%', display:'none', opacity:'0', top:'0px',width:'100%'},
+                                                         {progress:'4%', display:'block', opacity:'0.1', top:'25px',width:'100%'},
+                                                         {progress:'5%', display:'block', opacity:'0.2', top:'50px',width:'100%'},
+														 {progress:'6%', display:'block', opacity:'1', top:'75px',width:'100%'},
+														 {progress:'7%', display:'block', opacity:'1', top:'100px',width:'100%'},
+														 {progress:'8%', display:'block', opacity:'1', top:'125px',width:'100%'},
+														 {progress:'9%', display:'block', opacity:'1', top:'150px',width:'100%'},
+														 {progress:'10%', display:'block', opacity:'1', top:'175px',width:'100%'},
+														 {progress:'11%', display:'block', opacity:'1', top:'200px',width:'100%'},
+														 {progress:'100%', display:'block', opacity:'1', top:'200px',width:'100%'}/*265*/
 														 ]);
-		jarallax.addAnimation('#ziti_two',[{progress:'10%', display:'block', opacity:'0', top:'300px'},
-                                                         {progress:'11%', display:'block', opacity:'1', top:'310px'},
-                                                         {progress:'12%', display:'block', opacity:'1', top:'320px'},
-														 {progress:'13%', display:'block', opacity:'1', top:'330px'},
-							{progress:'14%', display:'block', opacity:'1', top:'340px'},							 {progress:'100%', display:'block', opacity:'1', top:'340px'}/*395*/
+		jarallax.addAnimation('#ziti_two',[{progress:'10%', display:'block', opacity:'0', top:'300px',width:'100%'},
+                                                         {progress:'11%', display:'block', opacity:'1', top:'310px',width:'100%'},
+                                                         {progress:'12%', display:'block', opacity:'1', top:'320px',width:'100%'},
+														 {progress:'13%', display:'block', opacity:'1', top:'330px',width:'100%'},
+							{progress:'14%', display:'block', opacity:'1', top:'340px',width:'100%'},							 
+							{progress:'100%', display:'block', opacity:'1', top:'340px',width:'100%'}/*395*/
 														 ]);
-		jarallax.addAnimation('#ziti_three',[{progress:'11%', display:'block', opacity:'0', top:'350px'},
-                                                         {progress:'12%', display:'block', opacity:'1', top:'450px'},
-                                                         {progress:'13%', display:'block', opacity:'1', top:'550px'},
-														 {progress:'100%', display:'block', opacity:'1', top:'550px'}
+		jarallax.addAnimation('#ziti_three',[{progress:'11%', display:'block', opacity:'0', top:'350px',width:'100%'},
+                                                         {progress:'12%', display:'block', opacity:'1', top:'450px',width:'100%'},
+                                                         {progress:'13%', display:'block', opacity:'1', top:'550px',width:'100%'},
+														 {progress:'100%', display:'block', opacity:'1', top:'550px',width:'100%'}
 														 ]);
 		jarallax.addAnimation('#ziti_four',[{progress:'3%', display:'none', opacity:'0', top:'340px'},
-                                                         {progress:'4%', display:'block', opacity:'1', top:'290px'},
-                                                         {progress:'5%', display:'block', opacity:'1', top:'240px'},
-														 {progress:'6%', display:'block', opacity:'1', top:'190px'},
-														 {progress:'7%', display:'block', opacity:'1', top:'140px'},
-														 {progress:'8%', display:'block', opacity:'1', top:'90px'},
-														 {progress:'9%', display:'block', opacity:'1', top:'40px'},
-														 {progress:'10%', display:'block', opacity:'1', top:'-10px'},
-														 {progress:'11%', display:'block', opacity:'1', top:'-60px'},/*170*/
-														 {progress:'100%', display:'block', opacity:'1', top:'-60px'}
+                                                         {progress:'4%', display:'block', opacity:'1', top:'290px',width:'100%'},
+                                                         {progress:'5%', display:'block', opacity:'1', top:'240px',width:'100%'},
+														 {progress:'6%', display:'block', opacity:'1', top:'190px',width:'100%'},
+														 {progress:'7%', display:'block', opacity:'1', top:'140px',width:'100%'},
+														 {progress:'8%', display:'block', opacity:'1', top:'90px',width:'100%'},
+														 {progress:'9%', display:'block', opacity:'1', top:'40px',width:'100%'},
+														 {progress:'10%', display:'block', opacity:'1', top:'-10px',width:'100%'},
+														 {progress:'11%', display:'block', opacity:'1', top:'-60px',width:'100%'},/*170*/
+														 {progress:'100%', display:'block', opacity:'1', top:'-60px',width:'100%'}
 														 ]);
 		jarallax.addAnimation('#chengbao',[
-				{progress:'15%', display:'block', opacity:'1', top:'1400px'},
-				{progress:'16%', display:'block', opacity:'1', top:'1550px'},
-				{progress:'17%', display:'block', opacity:'1', top:'1560px'},
-				{progress:'18%', display:'block', opacity:'0.7', top:'1600px'},
-				{progress:'100%', display:'block', opacity:'0.2', top:'1600px'}
+				{progress:'15%', display:'block', opacity:'1', top:'1400px',width:'100%'},
+				{progress:'16%', display:'block', opacity:'1', top:'1550px',width:'100%'},
+				{progress:'17%', display:'block', opacity:'1', top:'1560px',width:'100%'},
+				{progress:'18%', display:'block', opacity:'0.7', top:'1600px',width:'100%'},
+				{progress:'100%', display:'block', opacity:'0.2', top:'1600px',width:'100%'}
 		]);
 
 		/*if($("#sparks").css('opacity') == 0){								 
