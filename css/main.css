@@ -73,12 +73,12 @@ h3 {text-align:center}
 	 #ball7{ background:url(../images/people/fanzeng.png) no-repeat -270px -280px; width:195px; height:202px; z-index:288;}
 	 #ball1{ background:url(../images/people/xiangzhuang.png) no-repeat -270px -280px; width:195px; height:202px; z-index:289;}
 	 #ball9{ background:url(../images/people/caowushang.png) no-repeat -270px -280px; width:195px; height:202px; z-index:281;}
-	 #kuang{position:absolute; z-index:1; left:50%; top:2400px;
+	 #kuang{position:absolute; z-index:1; left:0px; top:2400px;
     height: 800px;
-    width: 1920px; margin-left:-960px; background-color:green;}
-#cardList{position:absolute; z-index:0; left:50%; top:3200px;
+    width: 100%; background-color:green;}
+#cardList{position:absolute; z-index:0; left:0px; top:3200px;
     height: 800px;
-    width: 1920px; margin-left:-960px; background-color:yellow;}
+    width: 100%; background-color:yellow;}
 	#featured-area {
 	position:relative;
 	z-index:2;
@@ -229,4 +229,4 @@ border:1px solid #aaaaaa;
 .btn i{display: block; width: 60px; height: 80px; text-indent:-100px; overflow:hidden;}
 #xiang_du{ background:url(../images/people/xiang_du.png) no-repeat; width:319px; height:385px;}/*top:4185px;*/
 #qinwang_du{ background:url(../images/people/qin_du.png) no-repeat; width:250px; height:350px;}/*top:4215px;*/
-#lastest{position:absolute; z-index:0; left:50%; top:4800px; height: 800px; width: 1920px; margin-left:-960px; background:#C9F url(../images/guanzhu.jpg) center center no-repeat;}
+#lastest{position:absolute; z-index:0; left:0px; top:4800px; height: 800px; width: 100%; background:#C9F url(../images/guanzhu.jpg) center center no-repeat;}
