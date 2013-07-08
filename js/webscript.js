@@ -12,6 +12,15 @@ include("js/jquery.event.drop-2.2/jquery.event.drop-2.2.js");
 include("js/main.js");
 include("js/script.js");	
 $(document).ready(function() { 
+//预加载图片
+	$("body").queryLoader2({
+				barColor: "#111111",
+				backgroundColor: "#202020",
+				percentage: true,
+				barHeight: 30,
+				completeAnimation: "grow"
+			});
+
 //window.location.reload();
 $('#featured-area ul').roundabout({
 easing: 'easeOutInCirc',//动太效果
