@@ -13,13 +13,13 @@ include("js/main.js");
 include("js/script.js");	
 $(document).ready(function() { 
 //预加载图片
-	$("body").queryLoader2({
+	/*$("body").queryLoader2({
 				barColor: "#111111",
 				backgroundColor: "#202020",
 				percentage: true,
 				barHeight: 30,
 				completeAnimation: "grow"
-			});
+			});*/
 
 //window.location.reload();
 $('#featured-area ul').roundabout({
