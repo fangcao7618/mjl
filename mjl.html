@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>萌将录</title>
+<!--<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" name="viewport" />-->
+<meta name="description" content="《萌将录》全球首款日漫风萌系RPG手机游戏，集卡牌、收集、策略于一体。游戏纵贯整个欧亚文明、剧情诙谐逗趣、人物Q版尽显可爱、操作简单、玩法丰富多样，重新勾勒萌系卡牌新玩法" />
+<meta name="keywords" content="萌将录；圣天龙；卡牌游戏；手机游戏；手机卡牌游戏；ios平台游戏；Android平台游戏；安卓游戏；苹果游戏；最好玩的手机网游；亚瑟王；魔卡幻想；萌江湖；大掌门；" />
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/webscript.js"></script>
+</head>
+
+<body onLoad='init()'>
+<div id="puv" style="display:none;"> 
+<img src="images/loading_bg.jpg" />
+<img src="images/loading_ma2.gif" />
+<img src="images/loading_02.png" />
+<img src="images/loading_03.png" />
+<img src="images/loading_move.png" />
+<img src="images/jianzhouwu_01.png" />
+<img src="images/jianzhouwu_02.png" />
+<img src="images/jianzhouwu_03.png" />
+ 
+<img src="images/people/01_bg.png" />
+<img src="images/people/02_bg.png" />
+<img src="images/people/03_bg.png" />
+<img src="images/people/04_bg.png" />
+<img src="images/people/05_bg.png" />
+<img src="images/people/06_bg.png" />
+<img src="images/people/07_bg.png" />
+<img src="images/people/08_bg.png" />
+<img src="images/people/09_bg.png" />
+<img src="images/people/10_bg.png" />
+
+<img src="images/people/01.png" />
+<img src="images/people/02.png" />
+<img src="images/people/03.png" />
+<img src="images/people/04.png" />
+<img src="images/people/05.png" />
+<img src="images/people/06.png" />
+<img src="images/people/07.png" />
+<img src="images/people/08.png" />
+<img src="images/people/09.png" />
+<img src="images/people/10.png" />
+
+<img src="images/mediv/1.png" />
+<img src="images/mediv/2.png" />
+<img src="images/mediv/3.png" />
+<img src="images/mediv/4.png" />
+<img src="images/mediv/5.png" />
+
+<img src="images/people/01_path.png" />
+<img src="images/people/02_path.png" />
+<img src="images/people/03_path.png" />
+<img src="images/people/04_path.png" />
+<img src="images/people/05_path.png" />
+<img src="images/people/06_path.png" />
+<img src="images/people/07_path.png" />
+<img src="images/people/08_path.png" />
+<img src="images/people/09_path.png" />
+<img src="images/people/10_path.png" />
+
+
+<img src="images/people/xiang_du.png" />
+<img src="images/people/qin_du.png" />
+<img src="images/iphoneBg.png" />
+
+ <img src="images/meng_bg_01_01.jpg" />
+    <img src="images/meng_bg_01_02.jpg" />
+    <img src="images/meng_bg_01_03.jpg" />
+    <img src="images/meng_bg_01_04.jpg" />
+    <img src="images/meng_bg_01_05.jpg" />
+    <img src="images/meng_bg_01_06.jpg" />
+    <img src="images/meng_bg_01_07.jpg" />
+</div>
+<!--<div id="progressBG"></div>
+<div class="example">
+  <div id="progress1">
+    <div class="loading_ma">
+      <div id="loading_pic_a"><img src="images/loading_ma2.gif"></div>
+      <span id="loading_ma">0%</span> </div>
+    <div class="percent"></div>
+    <div class="pbar"></div>
+    <div class="elapsed"></div>
+  </div>
+</div>-->
+<div id="poster">
+  <div id="baojian">
+    <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="400" height="400">
+      <param name="movie" value="images/effect.swf" />
+      <param name="quality" value="high" />
+      <param name="WMode" value="Transparent">
+      <param name="swfversion" value="9.0.45.0" />
+      <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+      <param name="expressinstall" value="../Scripts/expressInstall.swf" />
+      <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 --> 
+      <!--[if !IE]>-->
+      <object type="application/x-shockwave-flash" data="images/effect.swf" width="400" height="400">
+        <!--<![endif]-->
+        <param name="quality" value="high" />
+        <param name="WMode" value="Transparent">
+        <param name="swfversion" value="9.0.45.0" />
+        <param name="expressinstall" value="../Scripts/expressInstall.swf" />
+        <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+        <div>
+          <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+        </div>
+        <!--[if !IE]>-->
+      </object>
+      <!--<![endif]-->
+    </object>
+  </div>
+</div>
+<div id="produce_ziti">
+  <div id="ziti_one"> </div>
+  <!--<div id="ziti_two"> </div>-->
+  <div id="ziti_three"> </div>
+  <div id="ziti_four"></div>
+</div>
+<div id="jiantou"></div>
+<div id="chengbao"> </div>
+<div id="chengbao01"> </div>
+<div id="chengbao02"> </div>
+<div id="chengbao03"> </div>
+<div id="sparks"></div>
+<div id="sparks02"></div>
+
+<div id="kuang"></div>
+<div id="shu"></div>
+<div id="cardList"></div>
+<div id="featured-area"> 
+  <ul>
+    <li class="star"><a href="#" id="01_A"><img src="images/people/01_bg.png" /></a></li>
+    <li class="star"><a href="#" id="02_A"><img src="images/people/02_bg.png" /></a></li>
+    <li class="star"><a href="#" id="03_A"><img src="images/people/03_bg.png" /></a></li>
+    <li class="star"><a href="#" id="04_A"><img src="images/people/04_bg.png" /></a></li>
+    <li class="star"><a href="#" id="05_A"><img src="images/people/05_bg.png" /></a></li>
+    <li class="star"><a href="#" id="06_A"><img src="images/people/06_bg.png" /></a></li>
+    <li class="star"><a href="#" id="07_A"><img src="images/people/07_bg.png" /></a></li>
+    <li class="star"><a href="#" id="08_A"><img src="images/people/08_bg.png" /></a></li>
+    <li class="star"><a href="#" id="09_A"><img src="images/people/09_bg.png" /></a></li>
+    <li class="star"><a href="#" id="10_A"><img src="images/people/10_bg.png" /></a></li>
+  </ul>
+  <div id="card-indicators" class="indicators"></div>
+</div>
+<div class="wrap">
+  <div class="frame effects" id="effects">
+    <ul class="clearfix">
+      <li><img src="images/mediv/1.png" /></li>
+      <li><img src="images/mediv/2.png" /></li>
+      <li><img src="images/mediv/3.png" /></li>
+      <li><img src="images/mediv/4.png" /></li>
+      <li><img src="images/mediv/5.png" /></li>
+    </ul>
+  </div>
+</div>
+<div class="controls center">
+  <button class="btn prev"><i class="icon-chevron-left">prev</i></button>
+  <button class="btn next"><i class="icon-chevron-right">next</i></button>
+</div>
+<div id="shoujieBg"></div>
+<div id="peoList" style="position:absolute; z-index:0; left:50%; margin-left:-650px; top:4000px; width:1300px; height:800px;"></div>
+
+<div id="lastest">
+  <div class="pusMian" style="position:absolute; z-index:8; left:50%; margin-left:-600px; top:0px; width:1200px; height:470px;">
+  <!--<img src="images/meng_bg_weibo.jpg" usemap="#Map" border="0" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="642,198,764,230" href="http://e.weibo.com/u/3326708960" target="_blank" />
+    <area shape="rect" coords="773,198,896,231" href="http://t.qq.com/mengjianglu1799" target="_blank" />
+  </map>-->
+  <a style="display:inline-block; width:125px; height:35px; position:absolute; z-index:9; text-indent:-3000px; left:654px; top:200px;" href="http://e.weibo.com/u/3326708960">新浪微博</a><a style="display:inline-block;  width:125px; height:35px; position:absolute; z-index:9; text-indent:-3000px; left:785px; top:200px;" href="http://t.qq.com/mengjianglu1799">腾讯微博</a>
+  </div>
+  <div class="Mx">
+  <div id="Marquee_x">
+    <ul>
+      <li>
+        <div><img height="40" width="120" src="http://wp.1799.com/statics/images/flink/guan5.jpg" alt="图片1" /></div>
+        <div><img height="40" width="120" src="http://wp.1799.com/statics/images/flink/guan5.jpg" alt="图片2"/></div>
+        <div><img height="40" width="120" src="http://wp.1799.com/statics/images/flink/guan5.jpg" alt="图片3"/></div>
+        <div><img height="40" width="120" src="http://wp.1799.com/statics/images/flink/guan5.jpg" alt="图片4" /></div>
+        <div><img height="40" width="120" src="http://wp.1799.com/statics/images/flink/guan5.jpg" alt="图片5"/></div>
+        <div><img height="40" width="120" src="http://wp.1799.com/statics/images/flink/guan5.jpg" alt="图片6"/></div>
+        <div><img height="40" width="120" src="http://wp.1799.com/statics/images/flink/guan5.jpg" alt="图片7" /></div>
+        <div><img height="40" width="120" src="http://wp.1799.com/statics/images/flink/guan5.jpg" alt="图片8"/></div>
+      </li>
+    </ul>
+  </div>
+  </div>
+ 
+  
+</div>
+<div class="bottomLogo">
+  </div>
+  <div class="logoFontP">
+  <!--© 2013 www.1799.com 版权所有  ICP证：08103525号-8<br />
+  网络文化经营许可证：文网文[2012]0734-238号--> 
+  </div>
+
+</body>
+</html>

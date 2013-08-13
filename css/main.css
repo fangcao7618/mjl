@@ -1,0 +1,618 @@
+* {
+	margin: 0;
+	padding: 0
+}
+
+img {
+	border: 0
+}
+
+html {
+	overflow-x: hidden
+}
+
+body {
+	height: 5600px;
+	background: #000;
+	text-align: center;
+	overflow: hidden
+}
+h3 {
+	text-align: center
+}
+#poster {
+	position: absolute;
+	background:url(../images/meng_bg_01_01.jpg) no-repeat center 0px transparent;
+	top: 0;
+	z-index: 1;
+	margin: 0 auto;
+	width: 100%;
+	height: 800px;
+	*left: 0
+}
+
+.loading_ma {
+	position: absolute;
+	top: -209px;
+	left: 50%;
+	margin-left: -98px;
+	width: 196px;
+	height: 185px;
+	text-align: center
+}
+
+#loading_pic_a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -225px;
+	margin-left: -140px
+}
+
+#loading_ma,#qLpercentage {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	margin-top: -68px;
+	margin-left: 26px;
+	width: 60px;
+	height: 52px;
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 52px
+}
+
+#baojian {
+	position: absolute;
+	top: 310px;
+	left: 50%;
+	z-index: 5;
+	margin-left: -350px
+}
+
+#produce_ziti {
+	position: absolute;
+	background:url(../images/meng_bg_01_02.jpg) no-repeat center 0px transparent;
+	top: 800px;
+	z-index: 2;
+	width: 100%;
+	height: 800px;
+	*left: 0
+}
+
+#ziti_one {
+	position: absolute;
+	top: 265px;
+	left: 50%;
+	z-index: 4;
+	margin-left: -207px;
+	width: 415px;
+	height: 128px;
+	background: url(../images/02_03.png) no-repeat 0 0
+}
+
+#ziti_two {
+	position: absolute;
+	top: 430px;
+	left: 50%;
+	z-index: 5;
+	margin-left: -25px;
+	width: 50px;
+	height: 34px;
+	background: url(../images/02_07.png) no-repeat 0 0
+}
+
+#ziti_three {
+	position: absolute;
+	top: 600px;
+	left: 50%;
+	z-index: 6;
+	margin-left: -207px;
+	width: 415px;
+	height: 106px;
+	background: url(../images/02_10.png) no-repeat 0 0
+}
+
+#ziti_four {
+	position: absolute;
+	top: 0;
+	z-index: 3;
+	width: 100%;
+	height: 800px;
+	background: url(../images/baotu.png) no-repeat center 0;
+	*left: 0
+}
+
+#jiantou {
+	position: absolute;
+	top: 1750px;
+	z-index: 4;
+	display: none;
+	width: 100%;
+	height: 82px;
+	background: url(../images/jiantou.gif) no-repeat center top;
+	*left: 0
+}
+
+#chengbao {
+	position: absolute;
+	background:url(../images/meng_bg_01_03.jpg) no-repeat center 0px transparent;
+	top: 1600px;
+	z-index: 3;
+	width: 100%;
+	height: 800px;
+	*left: 0
+}
+
+#chengbao01 {
+	position: absolute;
+	top: 1600px;
+	z-index: 3;
+	display: none;
+	width: 100%;
+	height: 800px;
+	height: 800px;
+	background: url(../images/jianzhouwu_01.png) no-repeat center 0;
+	*left: 0
+}
+
+#chengbao02 {
+	position: absolute;
+	top: 1600px;
+	z-index: 3;
+	display: none;
+	width: 100%;
+	height: 800px;
+	height: 800px;
+	background: url(../images/jianzhouwu_02.png) no-repeat center 0;
+	*left: 0
+}
+
+#chengbao03 {
+	position: absolute;
+	top: 1600px;
+	z-index: 3;
+	display: none;
+	width: 100%;
+	height: 800px;
+	height: 800px;
+	background: url(../images/jianzhouwu_03.png) no-repeat center 0;
+	*left: 0
+}
+#sparks,#sparks02{
+	position: absolute;
+	top: 1600px;
+	left:50%;
+	z-index: 7;
+	width: 2000px;
+	margin-left:-1000px;
+	height: 800px;
+	cursor:pointer;}
+
+#sparks02 {
+	z-index: 6; cursor:default;
+}
+
+#ball10 {
+	z-index: 290;
+	overflow: hidden;
+	width: 470px;
+	height: 290px;
+	background: url(../images/people/10_path.png) no-repeat 0 0
+}
+
+#ball8 {
+	z-index: 282;
+	overflow: hidden;
+	width: 364px;
+	height: 150px;
+	background: url(../images/people/08_path.png) no-repeat 0 0
+}
+
+#ball4 {
+	z-index: 283;
+	overflow: hidden;
+	width: 290px;
+	height: 164px;
+	background: url(../images/people/04_path.png) no-repeat 0 0
+}
+
+#ball3 {
+	z-index: 284;
+	overflow: hidden;
+	width: 270px;
+	height: 180px;
+	background: url(../images/people/03_path.png) no-repeat 0 0
+}
+
+#ball6 {
+	z-index: 285;
+	overflow: hidden;
+	width: 260px;
+	height: 212px;
+	background: url(../images/people/06_path.png) no-repeat 0 0
+}
+
+#ball2 {
+	z-index: 288;
+	overflow: hidden;
+	width: 230px;
+	height: 180px;
+	background: url(../images/people/02_path.png) no-repeat 0 0
+}
+
+#ball5 {
+	z-index: 289;
+	overflow: hidden;
+	width: 290px;
+	height: 167px;
+	background: url(../images/people/05_path.png) no-repeat 0 0
+}
+
+#ball7 {
+	z-index: 286;
+	overflow: hidden;
+	width: 430px;
+	height: 188px;
+	background: url(../images/people/07_path.png) no-repeat 0 0
+}
+
+#ball1 {
+	z-index: 287;
+	overflow: hidden;
+	width: 300px;
+	height: 170px;
+	background: url(../images/people/01_path.png) no-repeat 0 0
+}
+
+#ball9 {
+	z-index: 281;
+	overflow: hidden;
+	width: 294px;
+	height: 195px;
+	background: url(../images/people/09_path.png) no-repeat 0 0
+}
+
+#kuang {
+	position: absolute;
+	background:url(../images/meng_bg_01_04.jpg) no-repeat center 0px transparent;
+	top: 2400px;
+	z-index: 1;
+	margin: 0 auto;
+	width: 100%;
+	height: 800px;
+	*left: 0
+}
+
+#shu {
+	position: absolute;
+	top: 2400px;
+	z-index: 2;
+	width: 100%;
+	height: 800px;
+	*left: 0
+}
+
+#cardList {
+	position: absolute;
+	background:url(../images/meng_bg_01_05.jpg) no-repeat center 0px transparent;
+	top: 3200px;
+	z-index: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: 800px;
+	*left: 0
+}
+
+.roundabout-holder {
+	margin: 0 auto;
+	width: 800px;
+	height: 472px;
+	list-style: none
+}
+
+.roundabout-moveable-item {
+	width: 320px;
+	height: 472px;
+	font-size: 12px!important;
+	cursor: pointer
+}
+
+.roundabout-moveable-item img {
+	margin: 0;
+	width: 100%;
+	height: 100%
+}
+
+.roundabout-in-focus {
+	cursor: auto
+}
+
+.roundabout-holder span {
+	display: none;
+	font-size: 11px
+}
+
+.roundabout-in-focus:hover span {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	z-index: 999;
+	display: inline;
+	padding: 8px 20px;
+	border-top: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	-webkit-border-top-left-radius: 5px;
+	background: #f9f9f9;
+	color: #8a428b;
+	-moz-border-radius-topLeft: 5px;
+	font-size: 11px
+}
+
+.roundabout a:active,.roundabout a:focus,.roundabout a:visited {
+	outline: 0;
+	text-decoration: none
+}
+
+.roundabout li {
+	margin: 0
+}
+
+#featured-area {
+	position: relative;
+	top: 3270px;
+	left: 50%;
+	z-index: 2;
+	margin-left: -549px;
+	padding-top: 50px;
+	width: 1098px;
+	height: 472px;
+	*left: 0;
+	*margin-left: 0
+}
+
+#featured-area img {
+	border: 0
+}
+
+#featured-area .indicators {
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	z-index: 20;
+	margin: 0 auto;
+	margin-left: -320px;
+	width: 640px;
+	height: 28px;
+	text-align: center
+}
+
+#featured-area .indicators .card-indicator {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background: transparent url(../images/screenshot-overlay_03.png) -3px 0 no-repeat
+}
+
+#featured-area .indicators .card-indicator:hover {
+	background-position: -33px 0;
+	cursor: pointer
+}
+
+#featured-area .indicators .card-indicator.active {
+	background-position: -63px 0
+}
+
+.wrap {
+	position: absolute;
+	top: 4030px;
+	left: 50%;
+	z-index: 2;
+	margin-left: -300px;
+	width: 600px;
+	height: 800px
+}
+
+.frame {
+	overflow: hidden;
+	height: 490px;
+	line-height: 490px
+}
+
+.frame ul {
+	left: 0;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	list-style: none;
+	font-size: 50px
+}
+
+.frame ul li {
+	float: left;
+	margin: 0 1px 0 0;
+	padding: 0;
+	width: 600px;
+	height: 100%;
+	color: #ddd;
+	text-align: center;
+	cursor: pointer
+}
+
+.frame ul li.active {
+	color: #fff
+}
+
+.controls {
+	margin: 25px 0;
+	text-align: center
+}
+
+.effects {
+	overflow-y: show;
+	padding-top: 95px;
+	height: 490px;
+	line-height: 490px
+}
+
+.effects ul li {
+	position: relative;
+	margin: 0
+}
+
+.effects ul li.active {
+	z-index: 10
+}
+
+#shoujieBg {
+	position: absolute;
+	background:url(../images/meng_bg_01_06.jpg) no-repeat center 0px transparent;
+	top: 4000px;
+	z-index: -1;
+	width: 100%;
+	height: 800px;
+	*left: 0
+}
+
+#iphoneBG {
+	position: absolute;
+	top: 4485px;
+	z-index: 1;
+	width: 100%;
+	height: 242px;
+	background: url(../images/iphoneBg.png) no-repeat center bottom;
+	*left: 0
+}
+
+.btn {
+	width: 60px;
+	height: 80px;
+	border: 0;
+	background: url(../images/btn_slideshow.png) no-repeat;
+	cursor: pointer
+}
+
+.prev {
+	position: absolute;
+
+	top: 4230px;
+	left: 50%;
+	z-index: 999;
+	margin-left: -420px;
+	background-position: 0 -80px
+}
+
+.next {
+	position: absolute;
+	top: 4230px;
+	right: 50%;
+	z-index: 999;
+	margin-right: -420px;
+	background-position: 0 0
+}
+
+.prev:hover {
+	background-position: 0 -240px
+}
+
+.next:hover {
+	background-position: 0 -160px
+}
+
+.disabled {
+	opacity: .3;
+	filter: alpha(opacity=30)
+}
+
+.btn i {
+	display: block;
+	overflow: hidden;
+	width: 60px;
+	height: 80px;
+	text-indent: -100px
+}
+
+#xiang_du {
+	z-index: 2;
+	width: 319px;
+	height: 440px;
+	background: url(../images/people/xiang_du.png) no-repeat
+}
+
+#qinwang_du {
+	z-index: 2;
+	width: 328px;
+	height: 440px;
+	background: url(../images/people/qin_du.png) no-repeat
+}
+
+#lastest {
+	position: absolute;
+	top: 4800px;
+	z-index: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: 800px;
+	background:url(../images/meng_bg_01_07.jpg) no-repeat center 0px transparent;
+	*left: 0
+}
+
+ul,li {
+	list-style: none
+}
+
+.Mx {
+	position: absolute;
+	top: 470px;
+	left: 50%;
+	z-index: 2;
+	margin-left: -600px;
+	width: 1200px;
+	height: 178px;
+	background: url(../images/meng_bg_dong2.jpg) no-repeat
+}
+
+#Marquee_x {
+	position: absolute;
+	top: 67px;
+	left: 50%;
+	z-index: 3;
+	overflow: hidden;
+	margin-left: -415px;
+	width: 902px
+}
+
+#Marquee_x ul li,#Marquee_x ul li {
+	margin-right: 0px;
+}
+
+#Marquee_x ul li,#Marquee_x ul li div {
+	float: left
+}
+
+.bottomLogo {
+	/*background: url(../images/logo_three.png) no-repeat scroll 0 0 transparent;*/
+	top: 5515px;
+	height: 46px;
+	left: 50%;
+	margin-left: -242px;
+	position: absolute;
+	width: 132px;
+	z-index: 3;
+}
+
+.logoFontP {
+	width: 350px;
+	height: 70px;
+	position: absolute;
+	z-index: 5;
+	left: 50%;
+	margin-left: -90px;
+	top: 5520px;
+	font: 12px/1.5 tahoma,arial,sans-serif,宋体;
+	line-height: 20px;
+	text-align: left;
+}
