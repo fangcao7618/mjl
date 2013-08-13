@@ -12,13 +12,13 @@ $(document).ready(function() {
 	$("#01_A").click();*/
 	
 	//预加载图片
-	/*$("#puv").queryLoader2({
+	$("#puv").queryLoader2({
 		barColor: "#111111",
 		backgroundColor: "#000",
 		percentage: true,
 		barHeight: 18,
 		completeAnimation: "grow"
-	});*/
+	});
 });
 function paowu(contentID, ID, startX, startY, endX, endY, timeDE, appendID_C) {
 	var index = 0;
